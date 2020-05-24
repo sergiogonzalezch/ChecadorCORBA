@@ -1,0 +1,16 @@
+
+module CheckApp
+      
+{
+    
+    interface servicio{
+       long get_id(in long id);
+       string get_pass(in string pass);
+       string get_name(in string name); 
+       string get_date();
+       long get_time();
+       oneway void shutdown();
+        
+    };
+};
+
